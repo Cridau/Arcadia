@@ -56,12 +56,12 @@ img{
 #avis{
     display: flex;
     width: auto;
-    background-color: chartreuse;
-    border:5px solide purple;
+    background-color: rgba(15, 219, 209, 0.589);
+    border:5px solide rgb(209, 13, 209);
 }
 
 .avi{
-    border:solid 5px black;
+    border:solid 5px rgb(216, 13, 13);
     width: 200px;
     height: 200px;
     justify-content: space-around;
