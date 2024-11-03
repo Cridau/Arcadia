@@ -21,10 +21,23 @@ footer{
     height: 200px;
 }
 
+/*section navigation*/
+
+
+/*section présentations*/
+
+#presentations{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
 /*intégration des photos*/
 #imgs{
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: auto;
     background-color: blueviolet;
 }
@@ -53,14 +66,22 @@ img{
 
 /*section des avis*/
 
-#avis{
+#les_avis{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: auto;
-    background-color: rgba(15, 219, 209, 0.589);
-    border:5px solide rgb(209, 13, 209);
+    background-color: rgba(7, 235, 223, 0.589);
+    border:10px solide rgb(209, 13, 209);
+}
+
+.avis{
+    display: flex;
 }
 
 .avi{
+    display: flex;
+    align-items: center;
     border:solid 5px rgb(216, 13, 13);
     width: 200px;
     height: 200px;
